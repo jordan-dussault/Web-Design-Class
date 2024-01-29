@@ -1,0 +1,70 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:pink;
+}
+
+h1{
+    color:rgb(184, 255, 164);
+    font-size: 60px;
+    text-align:center;
+}
+p {
+    font-size: 20px;
+    color:rgb(87, 63, 63);
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    font-weight:bold;
+    font-style:italic;
+    color:rgb(87, 63, 63);
+}
+
+h3{
+    color:rgb(87, 63, 63);
+}
+
+h4{
+    color: rgb(87, 63, 63);
+
+}
+h5{
+    color: rgb(87, 63, 63);
+}
+h6{
+    color: rgb(87, 63, 63);
+}
+a{
+    color: rgb(184, 255, 164);
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(184, 255, 164);
+    text-decoration: underline;
+}
+
+a:visited{
+    color:rgb(184, 255, 164);
+}
+
+a:visited:hover{
+    color:rgb(184, 255, 164);
+}
+hr{ 
+    border-top:1px dotted rgb(87, 63, 63);
+    border-bottom: none;
+}
+
+ul{
+    list-style-type:square;
+    color: rgb(87, 63, 63);
+}
+ul li{
+    
+}
+ol li{
+    font-size: 14px;
+    color:rgb(87, 63, 63);
+}
