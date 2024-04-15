@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Sequoia;
+    src: url(fonts/Sequoia.otf) format(opentype); 
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(252,251,244);
+    font-family: Sequoia;
+}
+
+.page1 {
+    font-family: Sequoia;
+    font-size: 55px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: -5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    z-index: 999;
+}
+
+.beginning{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#erastourposter{
+    height: 400px;
+}
+
+.button1-container{
+    margin-left:40px;
+}
+
+.erastourposter-container{
+    margin-right:40px;
+}
+
+.button1{
+    padding: 40px 70px;
+    background-color: rgb(189, 135, 110);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 8px 8px rgb(124, 89, 72);
+    text-align:center;
+}
+
+.button1:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 5px 5px rgb(124, 89, 72);
+}
+
+

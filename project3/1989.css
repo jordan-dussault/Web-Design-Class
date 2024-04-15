@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(143,177,201);
+}
+
+@font-face {
+    font-family: Sequoia;
+    src: url(fonts/Sequoia.otf) format(opentype); 
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Tungsten;
+    src:url(fonts/Tungsten-Black.ttf) format(opentype);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: Handwriting;
+    src:url(fonts/TShandwriting.ttf) format(opentype);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: OldEnglish;
+    src:url(fonts/OldEnglish.otf) format(opentype);
+    font-weight:bold;
+}
+
+.nineteen89{
+    font-family: Handwriting;
+    font-size: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    z-index: 999;
+    color:rgb(245,250,245);
+}
+
+.albuminfo-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#nineteen89albumcover{
+    height:450px;
+    margin: 0px, 30px, 30px, 30px;
+}
+
+.nineteen89albumcover-container img{
+    margin-left:30px;
+}
+
+.nineteen89albumcover-container:hover img{
+    content: url(images/1989albumcover2.jpeg);
+    height:450px;
+    margin-left:30px;
+}
+
+.nineteen89info{
+    font-family: Sequoia;
+    font-weight: bold;
+    padding: 40px 50px;
+    color: rgb(245,250,245);
+    border-radius: 5px;
+    font-size: 45px;
+    margin-left:20px;
+    margin-right: 5px;
+}
+
+.column{
+    display: flex;
+    flex-direction:row;
+    margin: 30px;
+}
+
+#nineteen89taylor1{
+    height: 500px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#nineteen89taylor2{
+    height: 625px;
+    margin-top: 20px;
+}
+
+#nineteen89taylor3{
+    height: 625px;
+    margin-top: 30px;
+}
+
+.image2{
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: left;
+}
+
+p{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    margin-right: 20px;
+    line-height: 1.1;
+}
+
+.bottom-section{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    line-height: 1.2;
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: left;
+}
+
+.words{
+    margin: 30px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.button1{
+    padding: 5px 40px;
+    background-color: rgb(175,30,71);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 45px;
+    box-shadow: 4px 4px rgb(115,46,71);
+    position: relative;
+    left:8px;
+    bottom:25px;
+    font-family: Tungsten;
+    text-align:center;
+}
+
+.button1:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(115,46,71);
+}
+
+.button2{
+    padding: 5px 40px;
+    background-color: rgb(66,66,66);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 4px 4px black;
+    position: relative;
+    right:8px;
+    bottom:25px;
+    font-family: OldEnglish;
+    text-align:center;
+}
+
+.button2:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px black;
+}

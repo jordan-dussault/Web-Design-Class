@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:  black;
+}
+
+@font-face {
+    font-family: Sequoia;
+    src: url(fonts/Sequoia.otf) format(opentype); 
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: OldEnglish;
+    src:url(fonts/OldEnglish.otf) format(opentype);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: Handwriting;
+    src:url(fonts/TShandwriting.ttf) format(opentype);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: Satisfy;
+    src:url(fonts/Satisfy-Regular.ttf) format(opentype);
+    font-weight:bold;
+}
+
+.reputation{
+    font-family: OldEnglish;
+    font-size: 60px;
+    text-align: center;
+    z-index: 999;
+    color:rgb(245,250,245);
+    margin-bottom: 20px;
+}
+
+.albuminfo-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#reputationalbumcover{
+    height:450px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.reputationinfo{
+    font-family: Sequoia;
+    font-weight: bold;
+    padding: 20px 50px;
+    color: rgb(245,250,245);
+    border-radius: 5px;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-right: 5px;
+    line-height:1.2;
+}
+
+.column{
+    display: flex;
+    flex-direction:row;
+    margin: 30px;
+}
+
+#reputationtaylor1{
+    height: 500px;
+}
+
+p{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    margin-right: 20px;
+    line-height:1.2;
+}
+
+.middle-section{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+
+.here{
+    color: rgb(245,250,245);
+    text-decoration: underline;
+}
+
+.here:hover{
+    color: rgb(245,250,245);
+    text-decoration: underline;
+}
+
+.here:visited{
+    color: rgb(245,250,245);
+    text-decoration: underline;
+}
+
+#reputationtaylor2{
+    height:500px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button1{
+    padding: 5px 40px;
+    background-color: rgb(143,177,201);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 50px;
+    box-shadow: 4px 4px rgb(98,137,177);
+    position: relative;
+    left:8px;
+    bottom:25px;
+    font-family: Handwriting;
+    text-align:center;
+}
+
+.button1:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(98,137,177);
+}
+
+.button2{
+    padding: 5px 40px;
+    background-color: rgb(233,177,214);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    box-shadow: 4px 4px rgb(212,109,148);
+    position: relative;
+    right:10px;
+    bottom:25px;
+    font-family: Satisfy;
+    text-align:center;
+}
+
+.button2:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(212,109,148);
+}

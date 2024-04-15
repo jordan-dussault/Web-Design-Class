@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(182,175,165);
+}
+
+@font-face {
+    font-family: Sequoia;
+    src: url(fonts/Sequoia.otf) format(opentype); 
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Caelan;
+    src:url(fonts/CaelanDemo.otf) format(opentype);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: NeueHaas;
+    src:url(fonts/NeueHaas.ttf) format(opentype);
+    font-weight:normal;
+}
+
+.ttpd{
+    font-family: Caelan;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: -50px;
+    margin-top: -15px;
+    padding: 35px;
+    z-index: 999;
+    color:rgb(245,250,245);
+}
+
+#ttpdalbumcover{
+    height: 350px;
+    margin: 30px;
+}
+
+.ttpdalbumcover-container{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+p{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.button1{
+    padding: 10px 20px;
+    background-color: rgb(92,112,149);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 4px 4px rgb(36,46,72);
+    position: relative;
+    left:8px;
+    bottom:25px;
+    font-family: NeueHaas;
+    text-align:center;
+}
+
+.button1:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(36,46,72);
+}
+
+.button2{
+    padding: 10px 20px;
+    background-color: rgb(189, 135, 110);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 4px 4px rgb(124, 89, 72);
+    position: relative;
+    right:8px;
+    bottom:25px;
+    font-family: Sequoia;
+    text-align:center;
+}
+
+.button2:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(124, 89, 72);
+}

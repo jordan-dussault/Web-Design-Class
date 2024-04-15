@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(233,177,214);
+}
+
+@font-face {
+    font-family: Sequoia;
+    src: url(fonts/Sequoia.otf) format(opentype); 
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: OldEnglish;
+    src:url(fonts/OldEnglish.otf) format(opentype);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: Satisfy;
+    src:url(fonts/Satisfy-Regular.ttf) format(opentype);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: ItalicCursive;
+    src:url(fonts/Italiccursive.ttf) format(opentype);
+    font-weight: bold;
+}
+
+.lover{
+    font-family: Satisfy;
+    font-size: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: -50px;
+    margin-top: -15px;
+    padding: 35px;
+    z-index: 999;
+    color:rgb(245,250,245);
+}
+
+.albuminfo-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#loveralbumcover{
+    height:450px;
+    margin: 30px;
+}
+
+.loveralbumcover-container{
+    margin-left:70px;
+}
+
+.loverinfo{
+    font-family: Sequoia;
+    font-weight: bold;
+    padding: 40px 70px;
+    color: rgb(245,250,245);
+    border-radius: 5px;
+    font-size: 50px;
+    margin-left:30px;
+}
+
+.column{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 30px;
+}
+
+#lovertaylor1{
+    height:450px;
+}
+
+.image{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+p{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+}
+
+.bottom-section{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lovertaylor2{
+    height:500px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.button1{
+    padding: 5px 40px;
+    background-color: rgb(66,66,66);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 4px 4px black;
+    position: relative;
+    left:8px;
+    bottom:25px;
+    font-family: OldEnglish;
+    text-align:center;
+}
+
+.button1:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px black;
+}
+
+.button2{
+    padding: 10px 20px;
+    background-color: rgb(133,133,133);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 4px 4px rgb(89,89,89);
+    position: relative;
+    right:8px;
+    bottom:25px;
+    font-family: ItalicCursive;
+    text-align:center;
+}
+
+.button2:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(89,89,89);
+}

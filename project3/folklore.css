@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(133,133,133);
+}
+
+@font-face {
+    font-family: Sequoia;
+    src: url(fonts/Sequoia.otf) format(opentype); 
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: ItalicCursive;
+    src:url(fonts/Italiccursive.ttf) format(opentype);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Satisfy;
+    src:url(fonts/Satisfy-Regular.ttf) format(opentype);
+    font-weight:bold;
+}
+
+.folklore{
+    font-family: ItalicCursive;
+    font-size: 75px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: -5px;
+    margin: 10px;
+    padding: 20px;
+    z-index: 999;
+    color:rgb(245,250,245);
+}
+
+.albuminfo-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#folklorealbumcover{
+    height:400px;
+    margin: 30px;
+}
+
+.folklorealbumcover-container{
+    margin-left:70px;
+}
+
+.folkloreinfo{
+    font-family: Sequoia;
+    font-weight: bold;
+    padding: 40px 70px;
+    color: rgb(245,250,245);
+    border-radius: 5px;
+    font-size: 50px;
+    margin-left:30px;
+}
+
+.column{
+    display: flex;
+    flex-direction:row;
+    margin: 30px;
+}
+
+#folkloretaylor1{
+    height:500px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+}
+
+.bottom-section{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+
+#folkloretaylor2{
+    height:500px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.button1{
+    padding: 5px 40px;
+    background-color: rgb(233,177,214);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    box-shadow: 4px 4px rgb(212,109,148);
+    position: relative;
+    left: 8px;
+    bottom:25px;
+    font-family: Satisfy;
+    text-align:center;
+}
+
+.button1:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(212,109,148);
+}
+
+.button2{
+    padding: 10px 20px;
+    background-color: rgb(149,65,29);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 4px 4px rgb(95,33,15);
+    position: relative;
+    right:8px;
+    bottom:25px;
+    font-family: ItalicCursive;
+    text-align:center;
+}
+
+.button2:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(95,33,15);
+}

@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(210,169,105);
+}
+
+@font-face {
+    font-family: Sequoia;
+    src: url(fonts/Sequoia.otf) format(opentype); 
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Satisfaction;
+    src:url(fonts/Satisfaction.ttf) format(opentype);
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: Charlton;
+    src: url(fonts/Charlton-Regular.otf) format(opentype); 
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Sudestada;
+    src: url(fonts/Sudestada-Regular.ttf) format(opentype);
+    font-weight:bold;
+}
+
+.fearless{
+    font-family: Charlton;
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: -5px;
+    margin-top: 10px;
+    z-index: 999;
+    color:rgb(245,250,245);
+}
+
+.albuminfo-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#fearlessalbumcover{
+    height:450px;
+    margin: 0px, 30px, 30px, 30px;
+}
+
+.fearlessalbumcover-container img{
+    margin-left:30px;
+}
+
+.fearlessalbumcover-container:hover img{
+    content: url(images/fearlessalbumcover2.png);
+    height:450px;
+    margin-left:30px;
+}
+
+.fearlessinfo{
+    font-family: Sequoia;
+    font-weight: bold;
+    padding: 40px 50px;
+    color: rgb(245,250,245);
+    border-radius: 5px;
+    font-size: 50px;
+    margin-left:20px;
+    margin-right: 5px;
+    line-height: 1.2;
+}
+
+.column{
+    display: flex;
+    flex-direction:row;
+    margin: 30px;
+}
+
+#fearlesstaylor2{
+    height: 750px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    margin-right: 20px;
+}
+
+.bottom-section{
+    font-family: Sequoia;
+    font-weight: bold;
+    color: rgb(245,250,245);
+    font-size: 40px;
+    margin-left:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#fearlesstaylor1{
+    height:500px;
+    margin-right: 40px;
+}
+
+#fearlesstaylor3{
+    height:500px;
+    margin-left:40px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.button1{
+    padding: 10px 20px;
+    background-color: rgb(108,194,175);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 4px 4px rgb(45, 166, 140);
+    position: relative;
+    left:8px;
+    bottom:25px;
+    font-family: Satisfaction;
+    text-align:center;
+}
+
+.button1:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(45, 166, 140);
+}
+
+.button2{
+    padding: 5px 40px;
+    background-color: rgb(139,61,142);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 4px 4px rgb(97,38,102);
+    position: relative;
+    right:8px;
+    bottom:25px;
+    font-family: Sudestada;
+    text-align:center;
+}
+
+.button2:hover{
+    color: black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px rgb(97,38,102);
+}
